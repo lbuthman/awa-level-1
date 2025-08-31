@@ -9,25 +9,14 @@
 >
 > Jacques Cousteau - _On diving and discovery_ (from The Silent World, 1953)
 
-## Howdy!
+## On We Go!
 
-This package contains a wild, but not atypical, state of Apex automation. The logic is complex, the design choices are
-inconsistent, and tests lack a greater purpose beyond merely code coverage. When Apex code, design, and architecture
-fall into this level, what I call Level 0, every change, bug fix, or question that needs to be answered about it
-takes longer and is less certain. All this equates to a higher cost of development.
+Many of you have made it here after successfully completing AWA Level 0 refactoring. That was tough! A fun journey, and
+we learned a lot, but it was tough. The code from here on out will be a lot more interesting, and challenging in a 
+different way.
 
-That said, the code in this org represents hundreds of hours of Apex development and investment by "the business". The
-worst thing a team or business could do would be to "burn it down" and start over. Doing it "right this time". The
-tougher reality is that code entropy and technical debt are natural byproducts of development. They cannot be factored
-out of the SDLC, but instead must be factored in. They will happen, as certain as death and taxes.
-
-Therefore, our goal is to learn how to work with, transform, and manage the inherent complexity of this level of code.
-The better we are at turning rotten, collapsed, and complex code into simple, readable, and maintainable, the better
-value we will provide to the businesses we work for.
-
-This package can be used as a training ground to learn essential skills in refactoring towards understanding and
-redesigning Apex towards higher levels of design. It provides a resource to practice maintenance skills in a safe
-environment, where you don't have to worry about breaking production business processes.
+Refactoring design & architecture with validated, clean, and documented code is a very different experience. With Level
+1 Apex in hand, we can refactor towards ...
 
 ## Getting Started
 
@@ -38,5 +27,5 @@ environment, where you don't have to worry about breaking production business pr
 
 ## Install the Package
 
-[![Install Unlocked Package in a Sandbox](./images/btn-install-unlocked-package-sandbox.png)](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tak0000008Hq5AAE)
+[![Install Unlocked Package in a Sandbox](./images/btn-install-unlocked-package-sandbox.png)](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tak0000009X6PAAU)
 
