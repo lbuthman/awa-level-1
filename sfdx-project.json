@@ -1,0 +1,20 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "default": true,
+      "package": "AWA Level 1",
+      "versionDescription": "The AWA Level 1 org is an org cleaned of collapsed design and poorly managed complexity. In this state, it is ready to be refactored towards a better design, towards Level 2. The main focus is taking the current Trigger-Handler-Helper architecture and refactoring it towards an enterprise level architecture framework. This code base can be used to try out several trigger designs to get experience or as a POC."
+    }
+  ],
+  "name": "non-grouper-sf",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "63.0",
+  "packageAliases": {
+    "AWA Level 1": "0Hoak0000000kMDCAY",
+    "AWA Level 1@0.1.0-1": "04tak0000009X6PAAU"
+  }
+}
