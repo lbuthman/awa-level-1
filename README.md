@@ -16,13 +16,23 @@ we learned a lot, but it was tough. The code from here on out will be a lot more
 different way.
 
 Refactoring design & architecture with validated, clean, and documented code is a very different experience. With Level
-1 Apex in hand, we can refactor towards ...
+1 Apex in hand, we can refactor towards Enterprise Level trigger designs. This naturally includes other concerns, like
+visibility via logging, deeper and more specific code conventions, and additional conveniences like test data creation,
+Syntactical Sugar, and deployment automation.
+
+## More Specifically
+
+1. Enterprise Trigger Design -> Trigger Actions Framework
+2. Traceability & Visibility -> Nebula Logger
+3. Callout Syntactical Sugar -> tbd
+4. Batch & Scheduled Job Sugar -> Relax
+5. Test Data Creation -> "crunch" new founded domain knowledge into Apex test data creation and test scenario bundling
 
 ## Getting Started
 
 1. Create a new Developer Org
 2. Install the package
-3. Setup your development environment
+3. Setup your development environment (Workshop)
 4. Begin refactoring
 
 ## Install the Package
