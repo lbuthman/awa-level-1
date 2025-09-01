@@ -1,0 +1,4686 @@
+{
+  "runDir": "/Users/lbuthman/Developer/Salesforce/awa-level-1/",
+  "violationCounts": {
+    "total": 194,
+    "sev1": 0,
+    "sev2": 50,
+    "sev3": 54,
+    "sev4": 90,
+    "sev5": 0
+  },
+  "versions": {
+    "code-analyzer": "0.31.0",
+    "pmd": "0.28.0"
+  },
+  "violations": [
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Handler.cls",
+          "startLine": 1,
+          "startColumn": 21,
+          "endLine": 109,
+          "endColumn": 2
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Handler.cls",
+          "startLine": 3,
+          "startColumn": 19,
+          "endLine": 11,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Handler.cls",
+          "startLine": 13,
+          "startColumn": 19,
+          "endLine": 52,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Handler.cls",
+          "startLine": 33,
+          "startColumn": 40,
+          "endLine": 33,
+          "endColumn": 109
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Handler.cls",
+          "startLine": 46,
+          "startColumn": 9,
+          "endLine": 46,
+          "endColumn": 24
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Handler.cls",
+          "startLine": 47,
+          "startColumn": 9,
+          "endLine": 47,
+          "endColumn": 23
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Handler.cls",
+          "startLine": 59,
+          "startColumn": 19,
+          "endLine": 71,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Handler.cls",
+          "startLine": 81,
+          "startColumn": 19,
+          "endLine": 102,
+          "endColumn": 7
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 1,
+          "startColumn": 21,
+          "endLine": 139,
+          "endColumn": 2
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 4,
+          "startColumn": 19,
+          "endLine": 11,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 29,
+          "startColumn": 19,
+          "endLine": 36,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 39,
+          "startColumn": 19,
+          "endLine": 46,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 49,
+          "startColumn": 19,
+          "endLine": 68,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 71,
+          "startColumn": 19,
+          "endLine": 78,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 81,
+          "startColumn": 19,
+          "endLine": 93,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 83,
+          "startColumn": 50,
+          "endLine": 87,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 92,
+          "startColumn": 9,
+          "endLine": 92,
+          "endColumn": 32
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 97,
+          "startColumn": 19,
+          "endLine": 110,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 108,
+          "startColumn": 13,
+          "endLine": 108,
+          "endColumn": 36
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 126,
+          "startColumn": 32,
+          "endLine": 126,
+          "endColumn": 108
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Helper.cls",
+          "startLine": 134,
+          "startColumn": 28,
+          "endLine": 134,
+          "endColumn": 86
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Test.cls",
+          "startLine": 4,
+          "startColumn": 12,
+          "endLine": 25,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Test.cls",
+          "startLine": 4,
+          "startColumn": 12,
+          "endLine": 25,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_create_product_data_when_park_is_created' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Test.cls",
+          "startLine": 28,
+          "startColumn": 12,
+          "endLine": 61,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Test.cls",
+          "startLine": 28,
+          "startColumn": 12,
+          "endLine": 61,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_set_Inactivated_Date_and_deactivate_related_POIs' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Test.cls",
+          "startLine": 64,
+          "startColumn": 12,
+          "endLine": 76,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Test.cls",
+          "startLine": 64,
+          "startColumn": 12,
+          "endLine": 76,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_create_opening_appointment_In_Progress' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Test.cls",
+          "startLine": 79,
+          "startColumn": 12,
+          "endLine": 92,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Test.cls",
+          "startLine": 79,
+          "startColumn": 12,
+          "endLine": 92,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_create_opening_appointment_Scheduled' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Test.cls",
+          "startLine": 95,
+          "startColumn": 12,
+          "endLine": 109,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/AdventureParkTrigger_Test.cls",
+          "startLine": 95,
+          "startColumn": 12,
+          "endLine": 109,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_update_opening_appointment_In_Progress' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ContactTrigger_Handler.cls",
+          "startLine": 1,
+          "startColumn": 21,
+          "endLine": 3,
+          "endColumn": 2
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ContactTrigger_Helper.cls",
+          "startLine": 1,
+          "startColumn": 21,
+          "endLine": 3,
+          "endColumn": 2
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ContactTrigger_Test.cls",
+          "startLine": 1,
+          "startColumn": 21,
+          "endLine": 3,
+          "endColumn": 2
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Handler.cls",
+          "startLine": 1,
+          "startColumn": 21,
+          "endLine": 113,
+          "endColumn": 2
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Handler.cls",
+          "startLine": 3,
+          "startColumn": 19,
+          "endLine": 15,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Handler.cls",
+          "startLine": 17,
+          "startColumn": 19,
+          "endLine": 29,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Handler.cls",
+          "startLine": 31,
+          "startColumn": 19,
+          "endLine": 75,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "CognitiveComplexity",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "Design",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Handler.cls",
+          "startLine": 31,
+          "startColumn": 19,
+          "endLine": 75,
+          "endColumn": 6
+        }
+      ],
+      "message": "The method 'onBeforeUpdate(List<Lead>, Map<Id, Lead>)' has a cognitive complexity of 16, current threshold is 15",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_design.html#cognitivecomplexity"
+      ]
+    },
+    {
+      "rule": "CyclomaticComplexity",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "Design",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Handler.cls",
+          "startLine": 31,
+          "startColumn": 19,
+          "endLine": 75,
+          "endColumn": 6
+        }
+      ],
+      "message": "The method 'onBeforeUpdate(List<Lead>, Map<Id, Lead>)' has a cyclomatic complexity of 12.",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_design.html#cyclomaticcomplexity"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Handler.cls",
+          "startLine": 77,
+          "startColumn": 19,
+          "endLine": 100,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Handler.cls",
+          "startLine": 102,
+          "startColumn": 19,
+          "endLine": 112,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Handler.cls",
+          "startLine": 103,
+          "startColumn": 90,
+          "endLine": 107,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Handler.cls",
+          "startLine": 110,
+          "startColumn": 13,
+          "endLine": 110,
+          "endColumn": 43
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 1,
+          "startColumn": 24,
+          "endLine": 277,
+          "endColumn": 2
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 4,
+          "startColumn": 19,
+          "endLine": 9,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 5,
+          "startColumn": 34,
+          "endLine": 5,
+          "endColumn": 118
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 12,
+          "startColumn": 19,
+          "endLine": 19,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 24,
+          "startColumn": 59,
+          "endLine": 28,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 35,
+          "startColumn": 19,
+          "endLine": 60,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 54,
+          "startColumn": 13,
+          "endLine": 54,
+          "endColumn": 33
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 58,
+          "startColumn": 13,
+          "endLine": 58,
+          "endColumn": 35
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 68,
+          "startColumn": 47,
+          "endLine": 68,
+          "endColumn": 125
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 92,
+          "startColumn": 19,
+          "endLine": 96,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 100,
+          "startColumn": 19,
+          "endLine": 111,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 108,
+          "startColumn": 38,
+          "endLine": 108,
+          "endColumn": 122
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 114,
+          "startColumn": 19,
+          "endLine": 168,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "CyclomaticComplexity",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "Design",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 114,
+          "startColumn": 19,
+          "endLine": 168,
+          "endColumn": 6
+        }
+      ],
+      "message": "The method 'remapDataForConvertedLeads(Set<Id>)' has a cyclomatic complexity of 10.",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_design.html#cyclomaticcomplexity"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 120,
+          "startColumn": 26,
+          "endLine": 127,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 120,
+          "startColumn": 26,
+          "endLine": 127,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 120,
+          "startColumn": 26,
+          "endLine": 127,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 149,
+          "startColumn": 13,
+          "endLine": 149,
+          "endColumn": 36
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 153,
+          "startColumn": 13,
+          "endLine": 153,
+          "endColumn": 41
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 157,
+          "startColumn": 13,
+          "endLine": 157,
+          "endColumn": 35
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 161,
+          "startColumn": 13,
+          "endLine": 161,
+          "endColumn": 33
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 166,
+          "startColumn": 13,
+          "endLine": 166,
+          "endColumn": 32
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 216,
+          "startColumn": 43,
+          "endLine": 220,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 229,
+          "startColumn": 19,
+          "endLine": 262,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 256,
+          "startColumn": 13,
+          "endLine": 256,
+          "endColumn": 33
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 260,
+          "startColumn": 13,
+          "endLine": 260,
+          "endColumn": 35
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 266,
+          "startColumn": 28,
+          "endLine": 274,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Helper.cls",
+          "startLine": 266,
+          "startColumn": 28,
+          "endLine": 274,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 5,
+          "startColumn": 12,
+          "endLine": 15,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 5,
+          "startColumn": 12,
+          "endLine": 15,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'reprocessed_lead_should_be_assigned_to_Marketing_User_on_Insert' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 18,
+          "startColumn": 12,
+          "endLine": 29,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 18,
+          "startColumn": 12,
+          "endLine": 29,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'reprocessed_lead_should_be_assigned_to_Marketing_User_on_Update' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 32,
+          "startColumn": 12,
+          "endLine": 48,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 32,
+          "startColumn": 12,
+          "endLine": 48,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_capture_status_change_date' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 51,
+          "startColumn": 12,
+          "endLine": 67,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 51,
+          "startColumn": 12,
+          "endLine": 67,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_create_POI_and_nullify_Lead' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 70,
+          "startColumn": 12,
+          "endLine": 85,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_reassign_accepted_lead_on_update' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 88,
+          "startColumn": 12,
+          "endLine": 99,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 88,
+          "startColumn": 12,
+          "endLine": 99,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_set_status_to_Disinterested' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 102,
+          "startColumn": 12,
+          "endLine": 113,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 102,
+          "startColumn": 12,
+          "endLine": 113,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_set_status_to_Engaged' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 116,
+          "startColumn": 12,
+          "endLine": 128,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 116,
+          "startColumn": 12,
+          "endLine": 128,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_set_status_to_Reprocessed_and_reassign_to_Marketing_User' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 131,
+          "startColumn": 12,
+          "endLine": 201,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 131,
+          "startColumn": 12,
+          "endLine": 201,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_map_data_from_Converted_Lead_to_related_records' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 204,
+          "startColumn": 12,
+          "endLine": 229,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 204,
+          "startColumn": 12,
+          "endLine": 229,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_create_POI_for_existing_lead' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 232,
+          "startColumn": 12,
+          "endLine": 249,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 232,
+          "startColumn": 12,
+          "endLine": 249,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_delete_related_POIs_on_lead_delete' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/LeadTrigger_Test.cls",
+          "startLine": 253,
+          "startColumn": 12,
+          "endLine": 260,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc @description",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Handler.cls",
+          "startLine": 1,
+          "startColumn": 21,
+          "endLine": 91,
+          "endColumn": 2
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Handler.cls",
+          "startLine": 5,
+          "startColumn": 19,
+          "endLine": 25,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Handler.cls",
+          "startLine": 27,
+          "startColumn": 19,
+          "endLine": 46,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Handler.cls",
+          "startLine": 48,
+          "startColumn": 19,
+          "endLine": 67,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Handler.cls",
+          "startLine": 69,
+          "startColumn": 19,
+          "endLine": 86,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Handler.cls",
+          "startLine": 88,
+          "startColumn": 19,
+          "endLine": 90,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 1,
+          "startColumn": 24,
+          "endLine": 179,
+          "endColumn": 2
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 5,
+          "startColumn": 19,
+          "endLine": 23,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 7,
+          "startColumn": 32,
+          "endLine": 12,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 26,
+          "startColumn": 19,
+          "endLine": 33,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 27,
+          "startColumn": 32,
+          "endLine": 27,
+          "endColumn": 100
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 38,
+          "startColumn": 19,
+          "endLine": 48,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 46,
+          "startColumn": 13,
+          "endLine": 46,
+          "endColumn": 31
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 73,
+          "startColumn": 13,
+          "endLine": 73,
+          "endColumn": 34
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 86,
+          "startColumn": 16,
+          "endLine": 91,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "CognitiveComplexity",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "Design",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 101,
+          "startColumn": 20,
+          "endLine": 132,
+          "endColumn": 6
+        }
+      ],
+      "message": "The method 'instantiatePOIsToSyncContacts(List<Park_Of_Interest__c>)' has a cognitive complexity of 16, current threshold is 15",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_design.html#cognitivecomplexity"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 142,
+          "startColumn": 32,
+          "endLine": 147,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 142,
+          "startColumn": 32,
+          "endLine": 147,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 158,
+          "startColumn": 19,
+          "endLine": 178,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 160,
+          "startColumn": 39,
+          "endLine": 165,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Helper.cls",
+          "startLine": 176,
+          "startColumn": 13,
+          "endLine": 176,
+          "endColumn": 36
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 5,
+          "startColumn": 12,
+          "endLine": 22,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 5,
+          "startColumn": 12,
+          "endLine": 22,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_update_Contact_on_POI_when_Missing_at_Creation' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 25,
+          "startColumn": 12,
+          "endLine": 48,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 25,
+          "startColumn": 12,
+          "endLine": 48,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_update_Contact_on_POI_when_Account_changes' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 51,
+          "startColumn": 12,
+          "endLine": 71,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 51,
+          "startColumn": 12,
+          "endLine": 71,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_null_Contact_on_POI_when_Account_changes_to_null' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 74,
+          "startColumn": 12,
+          "endLine": 91,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 74,
+          "startColumn": 12,
+          "endLine": 91,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_update_Account_on_POI_when_Missing_at_Creation' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 94,
+          "startColumn": 12,
+          "endLine": 114,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 94,
+          "startColumn": 12,
+          "endLine": 114,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_sync_POI_for_Contacts_from_related_Account' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 117,
+          "startColumn": 12,
+          "endLine": 145,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 117,
+          "startColumn": 12,
+          "endLine": 145,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_NOT_sync_POI_for_Contacts_from_related_Account_if_already_existing' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 148,
+          "startColumn": 12,
+          "endLine": 168,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 148,
+          "startColumn": 12,
+          "endLine": 168,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_delete_duplicate_POI_from_Contact_on_Insert' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 171,
+          "startColumn": 12,
+          "endLine": 195,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 171,
+          "startColumn": 12,
+          "endLine": 195,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_cascade_delete_to_contacts_from_related_account' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkOfInterestTrigger_Test.cls",
+          "startLine": 199,
+          "startColumn": 12,
+          "endLine": 206,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc @description",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Handler.cls",
+          "startLine": 1,
+          "startColumn": 24,
+          "endLine": 24,
+          "endColumn": 2
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Handler.cls",
+          "startLine": 3,
+          "startColumn": 19,
+          "endLine": 23,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Helper.cls",
+          "startLine": 1,
+          "startColumn": 24,
+          "endLine": 52,
+          "endColumn": 2
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Helper.cls",
+          "startLine": 5,
+          "startColumn": 19,
+          "endLine": 24,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Helper.cls",
+          "startLine": 6,
+          "startColumn": 52,
+          "endLine": 11,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Helper.cls",
+          "startLine": 6,
+          "startColumn": 52,
+          "endLine": 11,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Helper.cls",
+          "startLine": 28,
+          "startColumn": 19,
+          "endLine": 51,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Helper.cls",
+          "startLine": 29,
+          "startColumn": 61,
+          "endLine": 34,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Helper.cls",
+          "startLine": 29,
+          "startColumn": 61,
+          "endLine": 34,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Test.cls",
+          "startLine": 5,
+          "startColumn": 12,
+          "endLine": 22,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Test.cls",
+          "startLine": 5,
+          "startColumn": 12,
+          "endLine": 22,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_mark_second_Park_Tour_for_Lead_as_Return_Visitor' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Test.cls",
+          "startLine": 25,
+          "startColumn": 12,
+          "endLine": 47,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Test.cls",
+          "startLine": 25,
+          "startColumn": 12,
+          "endLine": 47,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_handle_Lead_mixed_scenario_Park_Tour_insert' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Test.cls",
+          "startLine": 50,
+          "startColumn": 12,
+          "endLine": 67,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Test.cls",
+          "startLine": 50,
+          "startColumn": 12,
+          "endLine": 67,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_mark_second_Park_Tour_for_Contact_as_Return_Visitor' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Test.cls",
+          "startLine": 70,
+          "startColumn": 12,
+          "endLine": 92,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/ParkTourTrigger_Test.cls",
+          "startLine": 70,
+          "startColumn": 12,
+          "endLine": 92,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_handle_Contact_mixed_scenario_Park_Tour_insert' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 1,
+          "startColumn": 21,
+          "endLine": 255,
+          "endColumn": 2
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "FieldNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 3,
+          "startColumn": 52,
+          "endLine": 3,
+          "endColumn": 101
+        }
+      ],
+      "message": "The constant field name 'tempLeadByEmail' doesn't match '[A-Z][A-Z0-9_]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#fieldnamingconventions"
+      ]
+    },
+    {
+      "rule": "FieldNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 4,
+          "startColumn": 52,
+          "endLine": 4,
+          "endColumn": 101
+        }
+      ],
+      "message": "The constant field name 'tempLeadByPhone' doesn't match '[A-Z][A-Z0-9_]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#fieldnamingconventions"
+      ]
+    },
+    {
+      "rule": "FieldNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 5,
+          "startColumn": 39,
+          "endLine": 5,
+          "endColumn": 75
+        }
+      ],
+      "message": "The constant field name 'tempParkNumbers' doesn't match '[A-Z][A-Z0-9_]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#fieldnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 7,
+          "startColumn": 19,
+          "endLine": 26,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 24,
+          "startColumn": 13,
+          "endLine": 24,
+          "endColumn": 39
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 46,
+          "startColumn": 38,
+          "endLine": 46,
+          "endColumn": 125
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 85,
+          "startColumn": 13,
+          "endLine": 85,
+          "endColumn": 37
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 89,
+          "startColumn": 13,
+          "endLine": 89,
+          "endColumn": 32
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 96,
+          "startColumn": 16,
+          "endLine": 102,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 118,
+          "startColumn": 20,
+          "endLine": 173,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc @description",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 118,
+          "startColumn": 20,
+          "endLine": 173,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc @return",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 118,
+          "startColumn": 20,
+          "endLine": 173,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing or mismatched ApexDoc @param",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "CognitiveComplexity",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "Design",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 118,
+          "startColumn": 20,
+          "endLine": 173,
+          "endColumn": 6
+        }
+      ],
+      "message": "The method 'handleTempLeadMatchingLead(Map<Id, Temp_Lead__c>, Map<String, Id>)' has a cognitive complexity of 17, current threshold is 15",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_design.html#cognitivecomplexity"
+      ]
+    },
+    {
+      "rule": "CyclomaticComplexity",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "Design",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 118,
+          "startColumn": 20,
+          "endLine": 173,
+          "endColumn": 6
+        }
+      ],
+      "message": "The method 'handleTempLeadMatchingLead(Map<Id, Temp_Lead__c>, Map<String, Id>)' has a cyclomatic complexity of 10.",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_design.html#cyclomaticcomplexity"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 165,
+          "startColumn": 13,
+          "endLine": 165,
+          "endColumn": 33
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 169,
+          "startColumn": 13,
+          "endLine": 169,
+          "endColumn": 29
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "ApexCRUDViolation",
+      "engine": "pmd",
+      "severity": 2,
+      "tags": [
+        "Recommended",
+        "Security",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 176,
+          "startColumn": 16,
+          "endLine": 182,
+          "endColumn": 10
+        }
+      ],
+      "message": "Validate CRUD permission before SOQL/DML operation or enforce user mode",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_security.html#apexcrudviolation"
+      ]
+    },
+    {
+      "rule": "CyclomaticComplexity",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "Design",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Handler.cls",
+          "startLine": 206,
+          "startColumn": 20,
+          "endLine": 232,
+          "endColumn": 6
+        }
+      ],
+      "message": "The method 'estimatedHouseHoldIncome(String)' has a cyclomatic complexity of 11.",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_design.html#cyclomaticcomplexity"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 7,
+          "startColumn": 20,
+          "endLine": 26,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 7,
+          "startColumn": 20,
+          "endLine": 26,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_create_a_new_lead_on_Temp_Lead_insert' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 29,
+          "startColumn": 20,
+          "endLine": 54,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 29,
+          "startColumn": 20,
+          "endLine": 54,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_update_existing_contact_on_Temp_Lead_Insert' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 57,
+          "startColumn": 20,
+          "endLine": 91,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 57,
+          "startColumn": 20,
+          "endLine": 91,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_create_new_contact_when_Temp_Lead_Name_is_different' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 94,
+          "startColumn": 20,
+          "endLine": 129,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 94,
+          "startColumn": 20,
+          "endLine": 129,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_only_update_existing_Lead_with_Full_Name_match' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 132,
+          "startColumn": 20,
+          "endLine": 155,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 132,
+          "startColumn": 20,
+          "endLine": 155,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_create_new_Lead_with_Full_Name_mismatch' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 158,
+          "startColumn": 20,
+          "endLine": 198,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 158,
+          "startColumn": 20,
+          "endLine": 198,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_only_update_existing_Contact_with_Full_Name_match' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 201,
+          "startColumn": 20,
+          "endLine": 240,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 201,
+          "startColumn": 20,
+          "endLine": 240,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_prefer_existing_Contact_over_existing_Lead_when_Temp_Lead_inserted' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 243,
+          "startColumn": 20,
+          "endLine": 258,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 243,
+          "startColumn": 20,
+          "endLine": 258,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_cover_Estimated_Household_Income_translation' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexUnitTestClassShouldHaveRunAs",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 261,
+          "startColumn": 20,
+          "endLine": 269,
+          "endColumn": 6
+        }
+      ],
+      "message": "Apex unit test classes should have at least one System.runAs() call",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#apexunittestclassshouldhaverunas"
+      ]
+    },
+    {
+      "rule": "MethodNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TempLeadTrigger_Test.cls",
+          "startLine": 261,
+          "startColumn": 20,
+          "endLine": 269,
+          "endColumn": 6
+        }
+      ],
+      "message": "The test method name 'should_cover_Adventure_Timeframe_translation' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#methodnamingconventions"
+      ]
+    },
+    {
+      "rule": "FieldNamingConventions",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "CodeStyle",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TestUtils.cls",
+          "startLine": 4,
+          "startColumn": 28,
+          "endLine": 4,
+          "endColumn": 56
+        }
+      ],
+      "message": "The static field name 'PRICE_BOOK_ACTIVATED' doesn't match '[a-z][a-zA-Z0-9]*'",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_codestyle.html#fieldnamingconventions"
+      ]
+    },
+    {
+      "rule": "ApexDoc",
+      "engine": "pmd",
+      "severity": 4,
+      "tags": [
+        "Recommended",
+        "Documentation",
+        "Apex"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/classes/TestUtils.cls",
+          "startLine": 6,
+          "startColumn": 19,
+          "endLine": 22,
+          "endColumn": 6
+        }
+      ],
+      "message": "Missing ApexDoc comment",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_documentation.html#apexdoc"
+      ]
+    },
+    {
+      "rule": "AvoidLogicInTrigger",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/triggers/AdventureParkTrigger.trigger",
+          "startLine": 1,
+          "startColumn": 1,
+          "endLine": 18,
+          "endColumn": 2
+        }
+      ],
+      "message": "Avoid logic in triggers",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#avoidlogicintrigger"
+      ]
+    },
+    {
+      "rule": "AvoidLogicInTrigger",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/triggers/LeadTrigger.trigger",
+          "startLine": 1,
+          "startColumn": 1,
+          "endLine": 22,
+          "endColumn": 2
+        }
+      ],
+      "message": "Avoid logic in triggers",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#avoidlogicintrigger"
+      ]
+    },
+    {
+      "rule": "CyclomaticComplexity",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "Design",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/triggers/LeadTrigger.trigger",
+          "startLine": 1,
+          "startColumn": 1,
+          "endLine": 22,
+          "endColumn": 2
+        }
+      ],
+      "message": "The trigger 'LeadTrigger' has a cyclomatic complexity of 11.",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_design.html#cyclomaticcomplexity"
+      ]
+    },
+    {
+      "rule": "AvoidLogicInTrigger",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/triggers/ParkOfInterestTrigger.trigger",
+          "startLine": 1,
+          "startColumn": 1,
+          "endLine": 19,
+          "endColumn": 2
+        }
+      ],
+      "message": "Avoid logic in triggers",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#avoidlogicintrigger"
+      ]
+    },
+    {
+      "rule": "AvoidLogicInTrigger",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/triggers/ParkTourTrigger.trigger",
+          "startLine": 1,
+          "startColumn": 1,
+          "endLine": 8,
+          "endColumn": 2
+        }
+      ],
+      "message": "Avoid logic in triggers",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#avoidlogicintrigger"
+      ]
+    },
+    {
+      "rule": "AvoidLogicInTrigger",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "Recommended",
+        "BestPractices",
+        "Apex",
+        "CustomRules"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app/main/default/triggers/TempLeadTrigger.trigger",
+          "startLine": 1,
+          "startColumn": 1,
+          "endLine": 7,
+          "endColumn": 2
+        }
+      ],
+      "message": "Avoid logic in triggers",
+      "resources": [
+        "https://docs.pmd-code.org/pmd-doc-7.15.0/pmd_rules_apex_bestpractices.html#avoidlogicintrigger"
+      ]
+    }
+  ]
+}
